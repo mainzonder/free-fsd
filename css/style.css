@@ -105,7 +105,11 @@ body {
 	justify-content: space-between;
 }
 
-.header .menu li {
+/* .header .menu li {
+	display: inline-block;
+} */
+
+.menu li {
 	display: inline-block;
 }
 
@@ -779,4 +783,9 @@ body {
 #modal input[type="submit"] {
 	background-color: #ffc222;
 	border: none;
+}
+.header__btn-menu {
+	display: none;
+	font-size: 28px;
+	cursor: pointer;
 }
