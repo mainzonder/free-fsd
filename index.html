@@ -15,6 +15,7 @@
 		<link rel="stylesheet" href="css/slick.css" />
 		<link rel="stylesheet" href="css/jquery.formstyler.css" />
 		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/media.css" />
 	</head>
 
 	<body>
@@ -320,7 +321,7 @@
 									имеющих специализации в отдельных областях права...»
 								</div>
 								<div class="news__slider-autor">
-									Андрей Ворошилов, генеральный д иректор компании Bankom
+									Андрей Ворошилов, генеральный директор компании Bankom
 								</div>
 							</div>
 
@@ -394,10 +395,47 @@
 			</div>
 		</section>
 		<footer class="footer">
-			<div class="footer__constant">
+			<div class="footer__content">
 				<div class="container">
-					<div class="footer__info"></div>
-					<div class="footer__map"></div>
+					<div class="footer__inner">
+						<div class="footer__info">
+							<div class="footer__title">Комплексное закрытие предприятия</div>
+							<div class="footer__text">
+								Полное прекращение существования юридического лица с сохранением
+								легальности всей предыдущей деятельности.
+							</div>
+							<a
+								data-fancybox
+								data-src="#modal"
+								href="javascript:;"
+								class="header__btn"
+								>Бесплатная консультация</a
+							>
+							<ul class="footer__list">
+								<li>
+									<a class="footer__phone" href="tel:+380963092145"
+										>+38 (096) 309 21 45
+									</a>
+								</li>
+								<li><a href="#">layout585@gmail.com</a></li>
+								<li>
+									<a class="footer__address" href="#"> Киев, ул.Пушиной, 13 </a>
+								</li>
+							</ul>
+						</div>
+						<div class="footer__map">
+							<iframe
+								width="630px"
+								height="250px"
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15457.201403990215!2d-71.30776672189324!3d-14.40984158799482!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91692f289ed899f9%3A0x478a165988814b94!2zTmFodWksIDA4MjcwLCDQn9C10YDRgw!5e0!3m2!1sru!2sua!4v1589397407653!5m2!1sru!2sua"
+								frameborder="0"
+								style="border: 0;"
+								allowfullscreen=""
+								aria-hidden="false"
+								tabindex="0"
+							></iframe>
+						</div>
+					</div>
 				</div>
 			</div>
 			<div class="footer__copy">
@@ -409,8 +447,11 @@
 			</div>
 		</footer>
 		<div id="modal">
-			<h2>Hello!</h2>
-			<p>You are awesome!</p>
+			<form>
+				<input type="text" placeholder="Ваше имя" />
+				<input type="text" placeholder="Ваш телефон" />
+				<input type="submit" value="Отправить" />
+			</form>
 		</div>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
